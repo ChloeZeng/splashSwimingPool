@@ -165,3 +165,5 @@ if (nextBtn && prevBtn) {
     prevBtn.addEventListener('click', prevSlide);
     setInterval(nextSlide, 5000); // auto change every 5s
 }
+
+

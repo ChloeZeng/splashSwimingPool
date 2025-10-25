@@ -1042,3 +1042,39 @@ textarea {
 @media (max-width: 640px){
   .curriculum .section-intro{ text-align:left; margin-left:0; margin-right:0; }
 }
+/* ================================
+   TESTIMONIAL SECTION (VUE)
+=================================== */
+.vue-testimonial-section {
+  padding: 6rem 1rem 2rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.vue-testimonial-section h2 {
+  color: #00a8e8;
+  margin-bottom: 2rem;
+}
+
+.testimonial-box {
+  background: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 168, 232, 0.15);
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #333;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  margin-top: 1rem;
+  color: #00a8e8;
+  font-weight: bold;
+  font-size: 1rem;
+}

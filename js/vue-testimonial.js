@@ -7,6 +7,9 @@ window.addEventListener('DOMContentLoaded', function() {
       testimonial: 'Splash made my child love swimming! The coaches are amazing and the classes are fun.',
       author: 'Priya S.'
     },
-    template: `<div class='card bg-light p-3 mb-3'><blockquote class='blockquote mb-0'>{{ testimonial }}<div class='blockquote-footer mt-2'>{{ author }}</div></blockquote></div>`
+    template: `<div class='testimonial-box'>
+    <p class='testimonial-text'>"{{ testimonial }}"</p>
+    <p class='testimonial-author'>— {{ author }}</p>
+  </div>`
   });
 });
